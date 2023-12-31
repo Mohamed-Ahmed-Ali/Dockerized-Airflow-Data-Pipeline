@@ -21,7 +21,7 @@ This project involves the development of a Dockerized Apache Airflow data pipeli
 2. **MySQL Database**: Existing database containing user data.
 
 ## Architecture
-![Architecture](./images/image.png)
+![Architecture](./Images/image.png)
 The architecture involves two separate DAGs within Apache Airflow, each responsible for fetching and transferring data from one source to the PostgreSQL database.
 
 ## Data Modeling
@@ -49,9 +49,9 @@ The data is modeled in a PostgreSQL table named `mytable`. The schema includes v
 
 ## Screenshots
 - Include screenshots of the Airflow web UI showing the DAGs and task execution logs.
-![Api DAG](./images/api.png)
-![MySQL DAG](./images/mysql.png)
-![PgAdmin](./images/pgadmin.png)
+![Api DAG](./Images/api.png)
+![MySQL DAG](./Images/mysql.png)
+![PgAdmin](./Images/pgadmin.png)
 
 ## Contributing
 If you'd like to contribute to the project, please follow the standard GitHub flow:
